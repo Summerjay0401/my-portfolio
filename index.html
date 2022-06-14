@@ -10,14 +10,16 @@
     <title>My Portfolio | Summer Jade Rosal</title>
 </head>
 <body>
-    <!-- Header -->
+    
+    <!-- HEADER -->
+
     <header class="1-header">
         <nav class="nav bd-grid">
             <div>
                 <a href="#" class="nav_logo">My Portfolio</a>
             </div>
 
-            <div id="nav_menu" class="nav_menu">
+            <div class="nav_menu" id="nav_menu" >
                 <ul class="nav_list">
                     <li class="nav_item">
                         <a href="#home" class="nav_link">Home</a>
@@ -37,9 +39,202 @@
                 </ul>
             </div>
 
+            <div class="nav_toggle" id="nav_toggle">
+                <a href="#" class="nav_toggle_icon">
+                    <img src="./assets/images/svg/hamburger-icon.svg" alt="navigation toggle on mobile screens" />
+                </a>
+            </div>
+
         </nav>
     </header>
     
+    <main class="1-main">
+
+        <!-- HOME -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">
+                    Hi,
+                    <br/> 
+                    I am <span class="home_title-color">Summer Jade</span>
+                    <br/>
+                    Registered Nurse turned Web Developer
+                </h1>
+
+                <a href="#" class="button">Contact</a>
+
+            </div>
+
+            <div class="home_social">
+                <a href="" class="home_social-icon">
+                    <img src="./assets/images/svg/linkedin-icon.svg" alt="link to my linkedin account" />
+                </a>
+                <a href="" class="home_social-icon">
+                    <img src="./assets/images/svg/github-icon.svg" alt="link to my github account" />
+                </a>
+                <a href="" class="home_social-icon">
+                    <img src="./assets/images/svg/codepen-icon.svg" alt="link to my codepen account" />
+                </a>
+            </div>
+
+            <div class="home_img">
+                <img src="./assets/images/profile.png" alt="My user profile Icon" />
+            </div>
+
+        </section>
+        
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="./assets/images/about.png" alt="about me image">
+                </div>
+
+                <div>
+                    <h2 class="about_subtitle">
+                        I am Summer Jade!
+                    </h2>
+                    <p class="about_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills_container bd-grid">
+                <div>
+                    <h2 class="skills_subtitle">Professional Skills</h2>
+                    <p class="skills_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua.
+                    </p>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class="skills_icon">
+                                <img src="./assets/images/svg/html5-icon.svg" alt="my html5 skill" />
+                            </i>
+                            <span name="skill_name">HTML5</span>
+                        </div>
+                        <div class="skills_bar skills_html"></div>
+                        <div>
+                            <span class="skills_percentage">90%</span>
+                        </div>                        
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class="skills_icon">
+                                <img src="./assets/images/svg/css3-icon.svg" alt="my css3 skill" />
+                            </i>
+                            <span name="skill_name">CSS3</span>
+                        </div>
+                        <div class="skills_bar skills_css"></div>
+                        <div>
+                            <span class="skills_percentage">80%</span>
+                        </div>                        
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class="skills_icon">
+                                <img src="./assets/images/svg/js-icon.svg" alt="my JavaScript skill" />
+                            </i>
+                            <span name="skill_name">JavaScript</span>
+                        </div>
+                        <div class="skills_bar skills_javascript"></div>
+                        <div>
+                            <span class="skills_percentage">60%</span>
+                        </div>                        
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class="skills_icon">
+                                <img src="./assets/images/svg/js-icon.svg" alt="my JavaScript skill" />
+                            </i>
+                            <span name="skill_name">JavaScript</span>
+                        </div>
+                        <div class="skills_bar skills_javascript"></div>
+                        <div>
+                            <span class="skills_percentage">60%</span>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./assets//images/skills.png" alt="my skillset">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+            <div class="work_container bd-grid">
+                <div class="work_img">
+                    <img src="./assets/images/work-img/1.png" alt="" />
+                </div>
+                <div class="work_img">
+                    <img src="./assets/images/work-img/2.png" alt="" />
+                </div>
+                <div class="work_img">
+                    <img src="./assets/images/work-img/3.png" alt="" />
+                </div>
+                <div class="work_img">
+                    <img src="./assets/images/work-img/4.png" alt="" />
+                </div>
+                <div class="work_img">
+                    <img src="./assets/images/work-img/5.png" alt="" />
+                </div>
+                <div class="work_img">
+                    <img src="./assets/images/work-img/6.png" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact_container bd-grid">
+                <form action="" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input" />
+                    <input type="mail" placeholder="E-mail" class="contact_input" />
+                    <textarea placeholder="Messages" cols="0" rows="10" class="contact_input"></textarea>
+                    <input type="button" value="Enter" class="contact_button button" />
+                </form>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p class="footer-title">Summer Jade</p>
+
+            <div class="footer_social">
+                <a href="#" class="footer_icon">
+                    <img src="./assets/images/svg/facebook-icon.svg" alt="">
+                </a>
+                <a href="#" class="footer_icon">
+                    <img src="./assets/images/svg/instragram-icon.svg" alt="">
+                </a>
+                <a href="#" class="footer_icon">
+                    <img src="./assets/images/svg/twitter-icon.svg" alt="">
+                </a>
+            </div>
+            <p>&#169; 2022 copyright all right reserved.</p>
+        </footer>
+
+    </main>
 
 </body>
 </html>

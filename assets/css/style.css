@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 249, 245);
+}
+
+.section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section .section-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px !important;
+}
+
+/* NAV */
+
+.nav .nav_toggle .nav_toggle_icon img {
+    height: 30px;
+}
+
+/* HOME */
+
+.home_social .home_social-icon img {
+    height: 30px;
+}
+
+/* SKILLS */
+
+.skills .skills_icon img {
+    height: 30px;
+}
+
+/* CONTACT */
+
+
+/* FOOTER */
+
+.footer .footer_social .footer_icon img {
+    height: 25px;
+}
+
+
